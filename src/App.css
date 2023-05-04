@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,7 +11,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}*/
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +28,55 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}*/
+
+.div-form{
+  background: linear-gradient(purple, rgb(223, 97, 223));
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem black;
+}
+
+.login-h1{
+  font-size: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-box{
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px rgb(160, 160, 32);
+  margin-top: 1rem;
+}
+
+.login-btn{
+  margin: 2rem 2rem 1rem 2rem;
+  padding-block: 8px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  background-color: purple;
+  box-shadow: 0 7px 10px black;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.login-btn:hover{
+  background-color: rgb(223, 97, 223);
+  color:purple;
+  transform: scale(1, 1);
 }
