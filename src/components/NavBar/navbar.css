@@ -3,11 +3,9 @@ a {
     color: white;
 }
 
-li {
-    text-decoration: none;
+ul{
+    list-style-type: none;
 }
-
-
 
 .divSearchBar{
     background-color: rgb(17, 0, 17);
@@ -20,11 +18,29 @@ li {
     padding-block: 15px;
 }
 
+.searchBar{
+    border: none;
+    padding: 5px 40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.searchBarBtn{
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    background-color: red;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+
 .divNavBar{
     background-color: grey;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 100px;
 }
 

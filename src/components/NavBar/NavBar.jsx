@@ -1,19 +1,16 @@
 import "./navbar.css"
 
 export default function NavBar() {
-    const textWhite = {
-        color: "white",
-    }
 
     return (
         <div className="divHeader">
             <div className="divSearchBar">               
                 <a href="/">TechStore</a>
                 <form action="">
-                    <input type="text" placeholder="Search.." />
-                    <button type="submit">Accept</button>
+                    <input type="text" className="searchBar" placeholder="Search.." />
+                    <button type="submit" className="searchBarBtn">Accept</button>
                 </form>               
-                <div style={textWhite}>Carrito 1</div>
+                <div>carrito 1</div>
             </div>
             <div className="divNavBar">
                 <nav>
