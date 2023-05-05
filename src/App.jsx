@@ -1,22 +1,17 @@
-import './App.css';
+import NavBar from "./components/NavBar/NavBar.jsx";
+import Greeting from "./components/ItemListContainer/ItemListContainer.jsx";
 
 function App() {
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div className="div-form">
-          <h1 className="login-h1">Log in</h1>
-          <form action="" className='form'>
-            <input type="text" className="input-box" placeholder="User name" id="nombre-usuario"></input>
-            <input type="email" className="input-box" placeholder="name@example.com" id="email-usuario"></input>
-            <input type="password" className="input-box" placeholder="Password" id="password-usuario"></input>
-            <button type="submit" className="login-btn">Login</button>
-          </form>
-        </div>
+  return(
+    <div>
+      <header>
+        <NavBar />
       </header>
+      <main>
+        <Greeting greeting="Hola Coder"></Greeting>
+      </main>
     </div>
-  );
+  )
 }
 
 export default App;
